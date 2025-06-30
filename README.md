@@ -1,14 +1,21 @@
 # SignBridge
 
-SignBridge empowers deaf and hard-of-hearing students with accessible education through AI-powered sign language translation, real-time captioning, and note sharing.
+SignBridge is an accessibility platform that empowers deaf and hard-of-hearing students with seamless note and speech translation into Indian Sign Language (ISL) using a 3D avatar, both on the web and in real-time during live classes.
 
 ## 🚀 Features
-- Real-time sign language translation of PDF notes
-- Real-time audio-to-speech translation in Google Meet (via extension)
-- Downloadable Google Meet sign language extension
-- Role-based login (Student/Teacher)
-- Upload, manage, and translate notes
-- Modern, responsive UI with accessibility focus
+
+### Note-to-Sign Conversion (Web Platform)
+- **Teacher Dashboard:** Teachers can upload PDF or text notes through their dedicated dashboard.
+- **Student Dashboard:** Deaf students can access a built-in translator that converts the content of uploaded notes into sign language using a 3D avatar.
+
+### Real-Time Speech-to-Sign (Chrome Extension)
+- The extension captures live classroom speech using the teacher's microphone.
+- It transcribes the speech, maps it to Indian Sign Language (ISL), and displays signs using a 3D avatar in real time.
+- Deaf students view this directly through their browser with no setup required—just use real-time speech translation.
+
+- **Downloadable Google Meet sign language extension**
+- **Role-based login (Student/Teacher)**
+- **Modern, responsive UI with accessibility focus**
 
 ## 🧑‍💻 Getting Started
 
@@ -28,9 +35,6 @@ npm install
 npm start
 ```
 Visit [http://localhost:3000](http://localhost:3000) in your browser.
-
-## 🧩 Download Google Meet Sign Language Extension
-Click the **Download Extension** button in the navbar or [download here](public/google_meet_sign_language.zip) to get the extension zip file.
 
 ## 🧩 Google Meet Real-Time Audio-to-Speech Translation
 
