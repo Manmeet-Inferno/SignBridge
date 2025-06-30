@@ -41,7 +41,7 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser.
 SignBridge provides a custom Google Meet extension that enables real-time audio-to-speech translation during meetings. This helps deaf and hard-of-hearing users follow conversations live.
 
 **How to use:**
-1. Download the extension zip from the navbar or [here](public/google_meet_sign_language.zip).
+1. Download the extension zip from the "Download Extension" button in the navbar of the app.
 2. Unzip the file.
 3. Go to `chrome://extensions` in your browser.
 4. Enable "Developer mode" (top right).
