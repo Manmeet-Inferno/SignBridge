@@ -4,6 +4,7 @@ SignBridge empowers deaf and hard-of-hearing students with accessible education 
 
 ## 🚀 Features
 - Real-time sign language translation of PDF notes
+- Real-time audio-to-speech translation in Google Meet (via extension)
 - Downloadable Google Meet sign language extension
 - Role-based login (Student/Teacher)
 - Upload, manage, and translate notes
@@ -30,6 +31,20 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🧩 Download Google Meet Sign Language Extension
 Click the **Download Extension** button in the navbar or [download here](public/google_meet_sign_language.zip) to get the extension zip file.
+
+## 🧩 Google Meet Real-Time Audio-to-Speech Translation
+
+SignBridge provides a custom Google Meet extension that enables real-time audio-to-speech translation during meetings. This helps deaf and hard-of-hearing users follow conversations live.
+
+**How to use:**
+1. Download the extension zip from the navbar or [here](public/google_meet_sign_language.zip).
+2. Unzip the file.
+3. Go to `chrome://extensions` in your browser.
+4. Enable "Developer mode" (top right).
+5. Click "Load unpacked" and select the unzipped extension folder.
+6. Join a Google Meet and activate the extension to see real-time audio-to-speech translation.
+
+This feature makes online meetings more accessible and inclusive for everyone!
 
 ## 📁 Project Structure
 ```
