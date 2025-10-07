@@ -71,15 +71,6 @@ const Navbar = () => {
                 {item.name}
               </button>
             ))}
-            <a
-              href="/google_meet_sign_language.zip"
-              download
-              className="inline-block"
-            >
-              <Button variant="secondary" size="sm" className="mr-2">
-                Download Extension
-              </Button>
-            </a>
             <Button variant="primary" size="sm" onClick={handleLoginClick}>
               Login
             </Button>
@@ -114,15 +105,6 @@ const Navbar = () => {
                   {item.name}
                 </button>
               ))}
-              <a
-                href="/google_meet_sign_language.zip"
-                download
-                className="inline-block"
-              >
-                <Button variant="secondary" size="sm" className="w-full mb-2">
-                  Download Extension
-                </Button>
-              </a>
               <Button variant="primary" size="sm" className="w-full" onClick={handleLoginClick}>
                 Login
               </Button>
@@ -134,4 +116,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar; 
+export default Navbar;

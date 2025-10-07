@@ -58,19 +58,6 @@ const DashboardPage = () => {
               <span className="text-xl font-bold text-gray-900">SignBridge</span>
             </div>
 
-            {/* Download Extension Button */}
-            <div className="flex items-center space-x-4">
-              <a
-                href="/google_meet_sign_language.zip"
-                download
-                className="inline-block"
-              >
-                <Button variant="primary" size="sm" className="bg-green-500 hover:bg-green-600 text-white">
-                  Download Extension
-                </Button>
-              </a>
-            </div>
-
             {/* Search Bar */}
             <div className="flex-1 max-w-md mx-8">
               <div className="relative">
@@ -227,4 +214,4 @@ const DashboardPage = () => {
   );
 };
 
-export default DashboardPage; 
+export default DashboardPage;

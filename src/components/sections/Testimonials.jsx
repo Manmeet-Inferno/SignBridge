@@ -124,13 +124,6 @@ const Testimonials = () => {
               Join the growing community of educators and students who are transforming education through accessibility.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="/google_meet_sign_language.zip"
-                download
-                className="btn-primary flex items-center justify-center"
-              >
-                Download Extension
-              </a>
               <button className="btn-secondary">
                 Schedule Demo
               </button>
@@ -142,4 +135,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials; 
+export default Testimonials;
